@@ -5,7 +5,7 @@ import sys
 import os
 from tqdm import tqdm
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'Your API key'
 
 def create_index(directory_path):
     max_input_len = 4096
